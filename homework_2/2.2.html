@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Формы</title>
+ </head>
+ <body>
+   <form action="/search.php">
+    <p>1. Текстовое поле</p>
+    <input type="text" name="answer">
+    <p>2. Поле для ввода пароля</p>
+    <input type="password" name="answer">
+    <p>3. Флаг</p>
+    <input type="checkbox" name="answer">
+    <p>4. Переключатель</p>
+    <input type="radio" name="answer">
+    <p>5. Загрузка файлов</p>
+    <input type="file" name="answer">
+    <p>6. Кнопка сброса значений</p>
+    <input type="reset" name="answer">
+    <p>7. Кнопка отправка данных</p>
+    <input type="submit" name="answer">
+    <p>8. Кнопка</p>
+    <input type="button" name="answer">
+    <p>9. Поле для ввода e-mail</p>
+    <input type="email" name="answer">
+    <p>10. Поле для поисковых запросов</p>
+    <input type="search" name="answer">
+    <p>11. Поле для ввода номера телефона</p>
+    <input type="tel" name="answer">
+    <p>12. Поле для ввода URL адреса</p>
+    <input type="url" name="answer">
+    <p>13. Поле для чисел</p>
+    <input type="number" name="answer" min="0" max="10" step="1">
+    <p>14. Ползунок</p>
+    <input type="range" name="answer">
+    <p>15. Select</p>
+    <p><select size="4" multiple name="answer">
+      <option disabled>Выберете вариант ответа</option>
+      <option value="В1">Вариант 1</option>
+      <option value="В2">Вариант 2</option>
+      <option value="В3">Вариант 3</option>
+      <option value="В4">Вариант 4</option>
+      <option value="В5">Вариант 5</option>
+      <option value="В6">Вариант 6</option>
+    </select></p>
+    <p><input type="submit" value="Отправить"></p>
+    <p>16. Label</p>
+    <p>Выберете вариант</p>
+    <p><input type="checkbox" id="check1"><label for="check1">Вариант 1</label><br>
+     <input type="checkbox" id="check2"><label for="check2">Вариант 2</label><br>
+     <input type="checkbox" id="check3"><label for="check3">Вариант 3</label><br>
+     <input type="checkbox" id="check4"><label for="check4">Вариант 4</label><br>
+     <input type="checkbox" id="check5"><label for="check5">Вариант 5</label><br></p>
+    <p>17. Label 2 способ</p>
+     <p>17.1</p>
+      <label><input>Текст</label>
+     <p>17.2</p>
+      <label><input>Пароль</label>
+     <p>17.3</p>
+      <label><input type="checkbox">Галочка</label>
+     <p>17.4</p>
+      <label><input type="radio">Выбрать</label>
+     <p>17.5</p>
+      <label><input type="file">Выбрать файл</label>
+     <p>17.6</p>
+      <label><input type="email">e-mail</label>
+     <p>17.7</p>
+      <label><input type="search">Поиск</label>
+     <p>17.8</p>
+      <label><input type="tel">Телефон</label>
+     <p>17.9</p>
+      <label><input type="url">URL-адрес</label>
+     <p>17.10</p>
+      <label><input type="number">Числа</label>
+     <p>17.11</p>
+      <label><input type="range">Ползунок</label>
+  </form>
+ </body>
+</html>
